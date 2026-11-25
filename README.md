@@ -1,5 +1,5 @@
-🍔 Food Delivery & Restaurant Operations Analytics System (MySQL)
-📌 Project Overview
+## 🍔 Food Delivery & Restaurant Operations Analytics System (MySQL)
+## 📌Project Overview
 
 The Food Delivery & Restaurant Operations Analytics System is an end-to-end relational database project developed using MySQL 8.0.
 
@@ -9,7 +9,7 @@ The primary goal of this project is to manage food delivery operations efficient
 
 All names, transactions, and amounts used in this project are fictional and intended for learning purposes.
 
-🎯 Project Objectives
+## 🎯 Project Objectives
 Design and implement a relational database using MySQL.
 Manage customer, restaurant, menu, order, delivery, and payment information.
 Establish relationships between tables using Primary Keys and Foreign Keys.
@@ -18,12 +18,13 @@ Identify top-performing restaurants and popular menu items.
 Analyse customer behaviour and order trends.
 Evaluate delivery partner performance.
 Generate business insights to support operational decision-making.
-🛠️ Technologies Used
+
+## 🛠️ Technologies Used
 Database: MySQL 8.0+
 IDE: MySQL Workbench 8.0+
 Language: SQL
 Concepts: DBMS, Relational Database Design, Data Analytics
-🗄️ Database Schema
+## 🗄️ Database Schema
 
 The project consists of 9 relational tables:
 
@@ -37,7 +38,8 @@ order_items	Stores individual items within each order
 deliveries	Stores delivery tracking information
 payments	Stores payment transactions
 ratings	Stores customer ratings and reviews
-🔗 Database Relationships
+
+## 🔗 Database Relationships
 One customer can place multiple orders.
 One restaurant can receive multiple orders.
 One restaurant can have multiple menu items.
@@ -47,7 +49,7 @@ Each order has one associated delivery record.
 Each order has one associated payment record.
 Each order can have one customer rating.
 
-📊 SQL Concepts Implemented
+## 📊 SQL Concepts Implemented
 
 This project demonstrates the following SQL concepts:
 •	CREATE DATABASE and USE
@@ -61,7 +63,7 @@ This project demonstrates the following SQL concepts:
 •	Subqueries and date/time calculations
 •	CREATE VIEW and stored procedures
 
-📈 Business Analytics Performed
+## 📈 Business Analytics Performed
 
 The project answers several real-world business questions using SQL.
 •	Which restaurants receive the highest number of orders?
@@ -73,7 +75,7 @@ The project answers several real-world business questions using SQL.
 •	Which restaurants have the strongest customer ratings?
 •	How much payment is collected through each payment method?
 
-⚙️ Advanced SQL Implementation
+## ⚙️ Advanced SQL Implementation
 
 1. Restaurant Performance Summary View
 
@@ -125,7 +127,7 @@ Food-Delivery-Analytics/
 
 Note: The folder structure above is a suggested organisation for the GitHub repository.
 
-🚀 How to Run This Project
+## 🚀 How to Run This Project
 
 Follow these steps to execute the project:
 
@@ -144,7 +146,7 @@ Select the database before executing the queries:
 sql
 USE food_delivery_analytics;
 
-💡 Key Business Insights
+##💡 Key Business Insights
 
 Using the sample dataset, this project helps analyse:
 
@@ -157,7 +159,8 @@ Delivery partner efficiency.
 Customer satisfaction through ratings.
 Payment collection across different methods.
 Daily order volume and sales trends.
-🎓 Learning Outcomes
+
+## 🎓 Learning Outcomes
 
 Through this project, I gained practical experience in:
 
@@ -169,7 +172,7 @@ Performing business analysis using aggregate functions and joins.
 Creating views and stored procedures.
 Extracting meaningful business insights from structured data.
 
-👨‍💻 Author
+##👨‍💻 Author
 
 jaisika | SQL | MySQL | Data Analytics
 
